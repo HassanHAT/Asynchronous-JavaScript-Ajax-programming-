@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+#queryInput {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+}
+
+button {
+    background: none;
+    border: solid 1px;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+}
